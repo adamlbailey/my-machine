@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Removing all pycache files in $PWD"
+find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf
+echo "Done."
