@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "Opening $1 with excel"
+open $1 -a "Microsoft Excel"

@@ -9,3 +9,6 @@ setup-shells: ## move shell scripts to /usr/local/bin
 
 setup-vimrc: ## moves .vimrc to home directory
 	cp vim/.vimrc ~/
+
+setup: ## Sets up all the above setup-* makes
+	make setup-shells && make setup-vimrc

@@ -28,6 +28,18 @@ set whichwrap+=<,>,h,l
  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 
  """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ " => Keystrokes
+ """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let mapleader = ","
+
+" f key advances words at a time
+map f W 
+
+" d key goes back words at a time 
+map d B
+
+
+ """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  " => Text, tab and indent related
  """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  " Use spaces instead of tabs
