@@ -51,6 +51,15 @@ map d B
 
 
  """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+ " => Scrolling
+ """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+noremap <silent> <C-u> :call smooth_scroll#up(5, 0, 2)<CR>
+noremap <silent> <C-d> :call smooth_scroll#down(5, 0, 2)<CR>
+noremap <silent> <C-b> :call smooth_scroll#up(&scroll*2, 0, 4)<CR>
+noremap <silent> <C-f> :call smooth_scroll#down(&scroll*2, 0, 4)<CR>
+
+
+ """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  " => Text, tab and indent related
  """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  " Use spaces instead of tabs
