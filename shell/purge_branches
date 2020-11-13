@@ -1,0 +1,2 @@
+#!/bin/bash
+git branch | grep -v "master" | grep -v "main" | grep -v "staging" | grep -v "testing" | xargs git branch -D
