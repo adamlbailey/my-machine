@@ -8,6 +8,7 @@ Plug 'prettier/vim-prettier', {
 
 Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'psf/black'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end() 
