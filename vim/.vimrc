@@ -13,6 +13,8 @@ Plug 'psf/black'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end() 
 
+let g:prettier#config#print_width = 80
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
  " => Misc.
  """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
